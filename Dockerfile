@@ -3,10 +3,10 @@ FROM debian:bookworm-slim
 ARG VERSION=0.5.2
 
 RUN apt-get update && apt-get install -y \
-    build-essential curl xvfb \
+    curl xvfb \
     make automake g++ \
     libpoppler-glib-dev poppler-utils libwxgtk3.2-dev \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get clean &&  rm -rf /var/lib/apt/lists/*
 
 WORKDIR /tmp
 
