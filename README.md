@@ -2,7 +2,7 @@
 
 [![Build and publish image](https://github.com/hidakatsuya/diff-pdfd/actions/workflows/build-and-publish.yml/badge.svg?branch=main)](https://github.com/hidakatsuya/diff-pdfd/actions/workflows/build-and-publish.yml)
 
-A dockerized version of the [diff-pdf](https://github.com/vslavik/diff-pdf) command.
+A dockerized [diff-pdf](https://github.com/vslavik/diff-pdf) command.
 
 ## Install
 
